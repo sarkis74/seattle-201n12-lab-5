@@ -99,28 +99,28 @@ IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-//  var testArray = [2, 3, 4];
+ var testArray = [2, 3, 4];
 
-// function sumArray(sumArr) { //eslint-disable-line
+function sumArray(sumArr) { //eslint-disable-line
 
-//   var plus = 0;
-//     for(var i = 0; i < sumArr.length; i++) {
-//     var plus = sum(sumArr[i], plus)[0];
-//     //var add3 = sumArr.reduce(sum);
-//     //var msg5 = (testArray.toString() + ' was passed in as an array of numbers, and ' + add3 + ' is their sum.');
-//  }
-//  var msg5 = (testArray.toString() + ' was passed in as an array of numbers, and ' + plus + ' is their sum.');
-//   // console.log(add3);
-//   console.log(msg5);
-//   console.log(plus);
-//   return [plus, msg5];
-// }
+  var plus = 0;
+    for(var i = 0; i < sumArr.length; i++) {
+    var plus = sum(sumArr[i], plus)[0];
+    //var add3 = sumArr.reduce(sum);
+    //var msg5 = (testArray.toString() + ' was passed in as an array of numbers, and ' + add3 + ' is their sum.');
+ }
+ var msg5 = (testArray.toString() + ' was passed in as an array of numbers, and ' + plus + ' is their sum.');
+  // console.log(add3);
+  console.log(msg5);
+  console.log(plus);
+  return [plus, msg5];
+}
 
-// sumArray(testArray);
+sumArray(testArray);
 
 // Here is the test for sumArray(); uncomment it to run it
 
-//testSumArray(testArray);
+testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
