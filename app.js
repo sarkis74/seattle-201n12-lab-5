@@ -63,28 +63,28 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 
 
-// function sumAndMultiply(a, b, c) { //eslint-disable-line
+ function sumAndMultiply(a, b, c) { //eslint-disable-line
 
     
-//     var add2 = sum(sum(a, b)[0], c);
-//     var msg3 = a + ' and ' + b + ' and ' + c + ' sum to ' + add2 + '.';
-//     console.log(a + ' and ' + b + ' and ' + c + ' sum to ' + add2 + '.');
+    var add2 = sum(sum(a, b)[0], c);
+    var msg3 = a + ' and ' + b + ' and ' + c + ' sum to ' + add2 + '.';
+    console.log(a + ' and ' + b + ' and ' + c + ' sum to ' + add2 + '.');
     
   
-//     var times2 = multiply(multiply(a, b)[0], c);
-//     var msg4 = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + times2 + '.';
-//     console.log('The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + times2 + '.');
+    var times2 = multiply(multiply(a, b)[0], c);
+    var msg4 = 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + times2 + '.';
+    console.log('The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + times2 + '.');
 
-//     var result4 = [add2, times2, msg3, msg4];
+    var result4 = [add2, times2, msg3, msg4];
     
-//     return result4;
+    return result4;
     
-//     }
+    }
   
    
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-//testSumAndMultiply(4,7,5);
+testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
