@@ -106,11 +106,10 @@ function sumArray(sumArr) { //eslint-disable-line
   var plus = 0;
     for(var i = 0; i < sumArr.length; i++) {
     var plus = sum(sumArr[i], plus)[0];
-    //var add3 = sumArr.reduce(sum);
-    //var msg5 = (testArray.toString() + ' was passed in as an array of numbers, and ' + add3 + ' is their sum.');
+    
  }
  var msg5 = (testArray.toString() + ' was passed in as an array of numbers, and ' + plus + ' is their sum.');
-  // console.log(add3);
+  
   console.log(msg5);
   console.log(plus);
   return [plus, msg5];
