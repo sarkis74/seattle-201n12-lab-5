@@ -34,18 +34,18 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 
-// function multiply(a, b) {
-//     var times1 = a * b;
-//     var msg2 = 'The product of ' + a +  ' and ' + b + ' is ' + times1 + '.';
-//     console.log('The product of ' + a +  ' and ' + b + ' is ' + times1 + '.');
-//     var result2 = [times1, msg2];
-//     return result2;
-//   }
+function multiply(a, b) {
+    var times1 = a * b;
+    var msg2 = 'The product of ' + a +  ' and ' + b + ' is ' + times1 + '.';
+    console.log('The product of ' + a +  ' and ' + b + ' is ' + times1 + '.');
+    var result2 = [times1, msg2];
+    return result2;
+  }
 
   
         
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
